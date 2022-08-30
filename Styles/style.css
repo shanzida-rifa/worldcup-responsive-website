@@ -60,6 +60,8 @@ body {
 }
 
 .button {
+    text-decoration: none;
+    color: black;
     height: 64px;
     width: 252px;
     border-radius: 10px;
@@ -169,4 +171,12 @@ body {
     }
 
 
+}
+
+/* Tablet */
+@media only screen and (min-width:689) and (max-width:992px) {
+    .blogs {
+        grid-template-columns: repeat(1, 1fr);
+
+    }
 }
