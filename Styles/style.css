@@ -60,18 +60,24 @@ body {
 }
 
 .button {
-    text-decoration: none;
-    color: black;
+
+
     height: 64px;
     width: 252px;
     border-radius: 10px;
     font-size: 20px;
 }
 
+.button a {
+    text-decoration: none;
+    color: black;
+}
+
 #blog {
     background-color: #DD0000;
     color: white;
     border: none;
+    border-radius: 10px;
 }
 
 .blogs {
@@ -132,6 +138,12 @@ body {
     margin: 20px;
     color: whitesmoke;
     padding-top: 15px;
+}
+
+.flag {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
 
 /* Media Queries */
