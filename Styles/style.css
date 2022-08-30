@@ -31,7 +31,6 @@ body {
 
 .half-width2 img {
     width: 100%;
-    /* padding: 33px 80px 0; */
 }
 
 .fa-angle-right {
@@ -65,6 +64,12 @@ body {
     width: 252px;
     border-radius: 10px;
     font-size: 20px;
+}
+
+#blog {
+    background-color: #DD0000;
+    color: white;
+    border: none;
 }
 
 .blogs {
