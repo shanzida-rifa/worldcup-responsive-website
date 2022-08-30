@@ -33,13 +33,7 @@ body {
     padding: 33px 80px 0;
 }
 
-/* .half-width2 img {
-    align-items: flex-end;
-} */
 
-.hea h1 {
-    font-size: 70px;
-}
 
 .fa-angle-right {
     color: white;
@@ -120,5 +114,37 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.1);
     height: 0;
     width: 800px;
+}
+
+.others small {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.social-media a {
+    font-size: 24px;
+    margin: 20px;
+    color: whitesmoke;
+    padding-top: 15px;
+}
+
+/* Media Queries */
+/* Mobile */
+@media only screen and (max-width:688px) {
+    .container {
+        justify-content: center;
+    }
+
+    .top-banner {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .buttons {
+        flex-direction: column;
+    }
 
 }
