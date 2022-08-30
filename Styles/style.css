@@ -47,6 +47,8 @@ body {
 
 .body-part {
     display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
 }
 
 .button-part {
@@ -70,4 +72,45 @@ body {
     width: 252px;
     border-radius: 10px;
     font-size: 20px;
+}
+
+.card-part {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 24px;
+    width: 100%;
+}
+
+.card {
+    border-radius: 10px;
+    height: 362px;
+    border: 1px solid #E8E8E8;
+}
+
+.blog-details {
+    padding: 20px;
+}
+
+.blog-details a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid #161616;
+    border-radius: 5px;
+    height: 100px;
+    padding: 4px 20px;
+}
+
+.blog-info {
+    font-size: 16px;
+    padding-left: 20px;
+    color: rgba(22, 22, 22, 0.7);
+}
+
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.footer h3 {
+    align-items: center;
 }
